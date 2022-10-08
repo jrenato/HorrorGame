@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "HorrorGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Development",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Development",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Development",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Test",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Test",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Test",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGame",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorrorGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "HorrorGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorrorGameEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\Unreal\\HorrorGame\\HorrorGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Epic\\Games\\UE_5.0"
+			}
+		}
+	]
+}

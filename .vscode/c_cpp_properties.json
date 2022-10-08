@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "HorrorGameEditor Editor Win64 Development (HorrorGame)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_HorrorGame.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

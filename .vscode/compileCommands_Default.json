@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\Projects\\Unreal\\HorrorGame\\Source\\HorrorGame\\HorrorGame.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_Default\\HorrorGame.211.rsp",
+		"directory": "C:\\Epic\\Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Projects\\Unreal\\HorrorGame\\Source\\HorrorGame\\HorrorGame.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_Default\\HorrorGame.211.rsp",
+		"directory": "C:\\Epic\\Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Projects\\Unreal\\HorrorGame\\Source\\HorrorGame\\HorrorGame.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_Default\\HorrorGame.211.rsp",
+		"directory": "C:\\Epic\\Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Projects\\Unreal\\HorrorGame\\Source\\HorrorGame\\HorrorGameGameModeBase.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_Default\\HorrorGame.211.rsp",
+		"directory": "C:\\Epic\\Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Projects\\Unreal\\HorrorGame\\Source\\HorrorGame\\HorrorGameGameModeBase.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @D:\\Projects\\Unreal\\HorrorGame\\.vscode\\compileCommands_Default\\HorrorGame.211.rsp",
+		"directory": "C:\\Epic\\Games\\UE_5.0\\Engine\\Source"
+	}
+]
